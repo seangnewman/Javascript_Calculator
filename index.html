@@ -2,13 +2,48 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <title>JQuery/JavaScript Calculator</title>
     <link rel="stylesheet" type="text/css" href="./resources/css/reset.css">
+    <!-- Link to Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./resources/css/styles.css">
   </head>
   <body>
     <main>
+        <header class="text-center">
+            <h1>JQuery/JavaScript Calculator</h1>
+            <h2>Free Code Camp</h2>
+        </header>
 
+        <section class="clcOut">
+            <span id="steps">0</span>
+            <hr/>
+        </section>
+        <section class="text-center" id="calculator">
+            <a class="btn btn-danger" id="deleteAll">AC</a>
+            <a class="btn btn-danger" id="backOne">CE</a>
+            <a class="btn btn-primary" id="/">/</a>
+            <a class="btn btn-primary" id="*">*</a>
+            <br/>
+            <a class="btn btn-primary" id="7">7</a>
+            <a class="btn btn-primary" id="8">8</a>
+            <a class="btn btn-primary" id="9">9</a>
+            <a class="btn btn-primary" id="-">-</a>
+            <br/>
+            <a class="btn btn-primary" id="4">4</a>
+            <a class="btn btn-primary" id="5">5</a>
+            <a class="btn btn-primary" id="6">6</a>
+            <a class="btn btn-primary" id="+">+</a>
+            <br/>
+            <a class="btn btn-primary" id="1">1</a>
+            <a class="btn btn-primary" id="2">2</a>
+            <a class="btn btn-primary" id="3">3</a>
+            <a class="btn btn-primary" id=".">.</a>
+            <br/>
+            <a class="btn btn-primary bigButton" id="0">0</a>
+            <a class="btn btn-primarty bigButton"id="total">=</a>
     </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="./resources/js/scripts.js"></script>
   </body>
 </html>
